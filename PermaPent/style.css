@@ -1,0 +1,45 @@
+body {
+    background-color:#1c1c1c;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 8vw;
+  font-family: fantasy;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 3vw;
+  text-indent: 50%;
+  font-family:sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  text-align: center;
+}
+.button{
+  width: auto;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 1vw;
+  text-align: center;
+  display: inline-block;
+  font-size: 4vw;
+  border-radius: 1vw;
+  width: 50%;
+  cursor: pointer;
+}
+.button1{
+  margin: 10%;
+}
+.button2{
+  background-color: #008CBA;
+  margin: 2%;
+
+}

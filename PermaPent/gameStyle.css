@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  font-family: fantasy monospace;
+}
+.toph1{
+  padding: 2%;
+  border: 0;
+  background-color: #e27166;
+  margin: 0;
+}
+
+.search{
+  padding: 1.1%;
+  border-color: #ff6347;
+  border-radius: 25px;
+  width: 80%;
+}
+
+.topbutton {
+  padding: 1.5%;
+  margin: 0;
+  background-color: #aadbff;
+  font-size: 1vw;
+  width: 30%;
+  font-family: monospace;
+  border:0;
+
+}
+
+.moneyButton{
+  width: 70%;
+  border-bottom-right-radius: 25px;
+
+}
+
+.pointButton {
+  float: right;
+  border-bottom-left-radius: 25px;
+}
+
+.container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#canvas{
+  display: inline-block;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    background-color:#1c1c1c;
+    margin-top: 5%;
+    padding: 32px 32px;
+    border: 1px solid #ccc;
+    border-top: none;
+    color: white;
+    font-family: monospace;
+}

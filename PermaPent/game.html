@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Perma Pent Game </title>
+    <link rel = "stylesheet" type = "text/css" href = "gameStyle.css">
+  </head>
+  <body>
+
+<!-- Search Bar -->
+    <div name = "topBar">
+      <h1 class="toph1">
+      <input class = "search" type= "search"
+      placeholder= "Search (not ready in prototype version)">
+      </h1>
+    </div>
+
+<!--2 buttons on top [money and points] -->
+    <button class = "topbutton moneyButton"> $0 </button>
+    <button class = "topbutton pointButton"> 0 points </button>
+
+<!-- Game view -->
+    <div class = "container">
+      <canvas id = "canvas"></canvas>
+    </div>
+
+<!-- Scrollable Life Tasks Tabs -->
+<div class="tab">
+  <div class = "tablinks">
+  <button class="life" id= "defaultOpen" onclick="openTab(event, 'Life Bars')">Life Bars </button>
+  <button class="activities" onclick="openTab(event, 'Activities')">Activities </button>
+  <button class="bills" onclick="openTab(event, 'Bills')"> Bills </button>
+  <button class="tips" onclick="openTab(event, 'Financial Tips')"> Financial Tips </button>
+  </div
+</div>
+
+<div id="Life Bars" class="tabcontent">
+  <h1>Life Bars</h1>
+  <p>Test</p>
+</div>
+
+<div id="Activities" class="tabcontent">
+  <h1>Activities</h1>
+  <p>Test</p>
+</div>
+
+<div id="Bills" class="tabcontent">
+  <h1>Bills</h1>
+  <p>Test.</p>
+</div>
+
+<div id="Financial Tips" class="tabcontent">
+  <h1>Financial Tips</h1>
+  <p>Test.</p>
+</div>
+
+<!-- Custom Scripts and Libraries-->
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="js/jcanvas.min.js"></script>
+
+<script src="js/tabScript.js"></script>
+<script src="gameScript.js"></script>
+
+  </body>
+</html>
